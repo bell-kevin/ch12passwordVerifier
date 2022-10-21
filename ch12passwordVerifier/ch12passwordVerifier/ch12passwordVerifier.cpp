@@ -51,4 +51,6 @@ int main()
 	{
 		cout << "The password is valid. Congratulations!\n";
 	} // end if
+	system("pause");
+	return 0;
 } // end main
