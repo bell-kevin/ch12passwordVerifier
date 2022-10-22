@@ -13,9 +13,7 @@ int main()
 	cin >> password;
 	int minPasswordLength = 6;
 	int length = password.length();
-	int upper = 0;
-	int lower = 0;
-	int digit = 0;
+	int upper = 0, lower = 0, digit = 0;
 	for (int i = 0; i < length; i++)
 	{
 		if (isupper(password[i]))
